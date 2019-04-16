@@ -1,0 +1,54 @@
+body {
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", Sans-Serif;
+}
+.box-set,
+.box {
+  border-radius: 33px;
+}
+.box-set {
+  background-color: darkslategray;
+  height: 600px;
+  position: relative;
+}
+.box {
+  background: #2db34a;
+  border: 2px solid #000;
+  height: 110px;
+  line-height: 110px;
+  position: absolute;
+  text-align: center;
+  width: 110px;
+  	
+}
+.box:hover {
+	opacity: 0.5;
+}
+.box:active {
+	transform: scale(1.1);
+}
+.box-1 {
+  background-color: aqua;
+  left: 10px;
+  top: 10px;
+}
+.box-2 {
+  background-color:darkblue;
+  bottom: 10px;
+  left: 10px;
+}
+.box-3 {
+  right: 10px;
+  top: 10px;
+  background-color: deeppink;
+}
+.box-4 {
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+.box-5 {
+  background-color: darkred;
+  bottom: 42%;
+  left: 42%;
+}
